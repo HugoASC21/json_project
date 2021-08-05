@@ -1,1 +1,16 @@
 /* Add your styling here: */
+body {
+    text-align: center;
+    background-color: green
+}
+
+#profile{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+}
+
+#profile div {
+    display: flex;
+    border: 5px solid purple;
+}
